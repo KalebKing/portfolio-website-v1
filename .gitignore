@@ -1,0 +1,30 @@
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets (never commit these)
+.env
+.env.*
+*.local
+secrets.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies / build output (in case tooling is added later)
+node_modules/
+dist/
+build/
